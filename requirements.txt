@@ -1,3 +1,0 @@
-# Add your project dependencies here
-# Example:
-pytest
