@@ -1,33 +1,16 @@
-# docChats — Python setup
+# DocChat 🤖
 
-This project contains minimal scaffolding to get a Python environment running.
+AI-ассистент для общения с текстовыми документами.
+Загрузи любой .txt файл и задавай вопросы на русском или английском.
 
-Quick start (macOS / zsh):
+## Технологии
+- Python
+- Groq API (llama-3.3-70b)
+- Sentence Transformers (векторный поиск)
+- RAG (Retrieval Augmented Generation)
 
-1. Create and activate a virtual environment:
+## Установка
+pip install groq python-dotenv sentence-transformers numpy
 
-```bash
-# from project root
-bash scripts/setup_env.sh
-```
-
-2. Activate the venv:
-
-```bash
-# zsh
-source venv/bin/activate
-```
-
-3. Run the sample app:
-
-```bash
-python -m src.main
-```
-
-4. Run tests:
-
-```bash
-pytest
-```
-
-If you want me to run the setup for you, tell me and I'll try (note: installing packages requires network access).
+## Запуск
+python dochat.py твой_документ.txt
